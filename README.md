@@ -1,4 +1,4 @@
-# CSBC1010 Assigment 3 Server App - Notes
+# Notes application API
 
 This is the Application Tier for a simple Notes app. Built in [Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/). You are required to:
 1. [Setup a connection to a SQL database.](https://github.com/vivienfan/csbc1010-notes-app-server/blob/master/src/app.js#L27-L29)
@@ -39,4 +39,4 @@ npm start
 - [npm v6+](https://www.npmjs.com/)
 
 ### Related Project
-- [CSBC1010 Assigment 3 Client App - Notes](https://github.com/vivienfan/csbc1010-notes-app-client)
+- [clone the client repository from here](https://github.com/vivienfan/csbc1010-notes-app-client)
