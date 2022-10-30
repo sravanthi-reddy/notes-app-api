@@ -90,10 +90,10 @@ const updateNote = async (req, res) => {
             plain: true
          })
         console.log("returned note update",returnNote )
-        var updatedNote = await Note.findByPk(req.body.id)
-        if (!validateNote(updateNote)) {
+        var updatedNote = await Note.findByPk(noteId)
+        if (!validateNote(updatedNote)) {
             return res.status(404).send({
-                message: "Note not found with id " + req.body.id
+                message: "Note not found with id " + noteId
             });
         }
         res.send({ updatedNote });

@@ -2,3 +2,4 @@ error: Oct-29-2022 02:03:52: 	500- validateNoteArray is not defined - /notes - G
 error: Oct-29-2022 13:23:57: 	500- validateNoteArray is not defined - /notes - GET - ::1
 error: Oct-29-2022 13:25:26: 	500- validateNoteArray is not defined - /notes - GET - ::1
 error: Oct-29-2022 14:49:27: 	500- Cannot set headers after they are sent to the client - /notes - GET - ::1
+error: Oct-30-2022 12:56:26: 	500- Cannot set headers after they are sent to the client - /notes - GET - ::1
