@@ -1,14 +1,14 @@
 # Notes application API
 
 This is the Application Tier for a simple Notes app. Built in [Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/). You are required to:
-1. [Setup a connection to a SQL database.](https://github.com/sravanthi-reddy/notes-app-api/blob/master/config/appConfig.js#L27-L29)
-2. [Upon connection success, create the relavent table(s) if it does not exist.](https://github.com/sravanthi-reddy/notes-app-api/blob/master/config/appConfig.js#L31-L33)
-3. [Fetch all notes](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L5-L59)
-4. [Create a new note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L5-L60)
-5. [Update an existing note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L62-L119)
-6. [Delete an existing note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L121-L163)
-7. [Search notes by content](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L61-L116)
-8. [Bulk delete all existing notes](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L118-L156)
+1. [Setup a connection to a SQL database.](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/config/appConfig.js#L10-L18)
+2. [Upon connection success, create the relavent table(s) if it does not exist.](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/config/appConfig.js#L19-L25)
+3. [Fetch all notes](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L7-L24)
+4. [Create a new note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L28-L44)
+5. [Update an existing note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L74-L105)
+6. [Delete an existing note](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L108-L127)
+7. [Search notes by content](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L47-L72)
+8. [Bulk delete all existing notes](https://github.com/sravanthi-reddy/notes-app-api/blob/master/src/controller/note.controller.js#L130-L145)
 
 
 ### Steps to setup:
@@ -40,4 +40,4 @@ npm start
 
 ### Related Project
 - [clone the client repository from here](https://github.com/sravanthi-reddy/notes-app-react)
-- [reference](https://github.com/vivienfan/csbc1010-notes-app-client)
+- [reference](https://github.com/vivienfan/csbc1010-notes-app-api)
