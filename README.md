@@ -39,4 +39,5 @@ npm start
 - [npm v6+](https://www.npmjs.com/)
 
 ### Related Project
-- [clone the client repository from here](https://github.com/vivienfan/csbc1010-notes-app-client)
+- [clone the client repository from here](https://github.com/sravanthi-reddy/notes-app-react)
+- [reference](https://github.com/vivienfan/csbc1010-notes-app-client)
